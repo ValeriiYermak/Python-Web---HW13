@@ -1,6 +1,6 @@
 import re
 import redis.asyncio as redis
-from passlib import Path
+from pathlib import Path
 from typing import Callable
 from ipaddress import ip_address
 from fastapi import FastAPI, HTTPException, Depends, Request, status
